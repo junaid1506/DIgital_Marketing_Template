@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiDarts - Luxury Performance Marketing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">
+                <svg viewBox="0 0 200 200" class="logo-svg">
+                    <path class="logo-path" d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z" fill="none" stroke="#FF5A5F" stroke-width="8"/>
+                    <path class="dart-path" d="M100,30 L100,170 M30,100 L170,100 M55,55 L145,145 M145,55 L55,145" stroke="#FF5A5F" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="preloader-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor Effects -->
+    <div class="cursor cursor-normal"></div>
+    <div class="cursor cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <svg viewBox="0 0 200 200" class="logo-svg-small">
+                    <path d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z" fill="none" stroke="#FF5A5F" stroke-width="4"/>
+                    <path d="M100,30 L100,170 M30,100 L170,100 M55,55 L145,145 M145,55 L55,145" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span>Digi<span>Darts</span></span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link">HOME</a>
+                <a href="#solutions" class="nav-link">PERFORMANCE SOLUTIONS</a>
+                <a href="#services" class="nav-link">DIGITAL MARKETING</a>
+                <a href="#industries" class="nav-link">INDUSTRIES</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+                <div class="nav-highlight"></div>
+            </div>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+            <div class="mobile-menu-header">
+                <a href="#" class="logo">
+                    <svg viewBox="0 0 200 200" class="logo-svg-small">
+                        <path d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z" fill="none" stroke="#FF5A5F" stroke-width="4"/>
+                        <path d="M100,30 L100,170 M30,100 L170,100 M55,55 L145,145 M145,55 L55,145" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>Digi<span>Darts</span></span>
+                </a>
+                <div class="menu-close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="mobile-menu-links">
+                <a href="#home" class="mobile-link">HOME</a>
+                <a href="#solutions" class="mobile-link">PERFORMANCE SOLUTIONS</a>
+                <a href="#services" class="mobile-link">DIGITAL MARKETING</a>
+                <a href="#industries" class="mobile-link">INDUSTRIES</a>
+                <a href="#contact" class="mobile-link">CONTACT</a>
+                <a href="#about" class="mobile-link">OUR STORY</a>
+                <a href="#case-studies" class="mobile-link">CASE STUDIES</a>
+            </div>
+            
+            <div class="mobile-menu-footer">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <p>© 2023 DigiDarts. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles-bg" id="particles-js"></div>
+        <div class="hero-video-bg">
+            <video autoplay muted loop playsinline>
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-network-of-lines-31220-large.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Precision Digital Marketing That Hits The Mark</h1>
+                <p class="hero-subtitle">We deliver targeted, high-performance digital solutions that drive measurable results for luxury brands and premium businesses.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#solutions" class="btn btn-outline">Explore Solutions</a>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#solutions" class="hero-scroll">
+            <div class="scroll-icon">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+        
+        <div class="hero-marquee">
+            <div class="marquee-inner">
+                <span>Performance Marketing</span>
+                <span>Data-Driven Strategies</span>
+                <span>Luxury Brand Experts</span>
+                <span>ROI-Focused Solutions</span>
+                <span>Global Reach</span>
+                <span>Premium Services</span>
+                <span>Performance Marketing</span>
+                <span>Data-Driven Strategies</span>
+                <span>Luxury Brand Experts</span>
+                <span>ROI-Focused Solutions</span>
+                <span>Global Reach</span>
+                <span>Premium Services</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients">
+        <div class="container">
+            <div class="clients-slider">
+                <div class="client-track">
+                    <div class="client-slide">
+                        <img src="images/client-1.png" alt="Client Logo">
+                    </div>
+                    <div class="client-slide">
+                        <img src="images/client-2.png" alt="Client Logo">
+                    </div>
+                    <div class="client-slide">
+                        <img src="images/client-3.png" alt="Client Logo">
+                    </div>
+                    <div class="client-slide">
+                        <img src="images/client-4.png" alt="Client Logo">
+                    </div>
+                    <div class="client-slide">
+                        <img src="images/client-5.png" alt="Client Logo">
+                    </div>
+                    <div class="client-slide">
+                        <img src="images/client-6.png" alt="Client Logo">
+                    </div>
+                    <div class="client-slide">
+                        <img src="images/client-7.png" alt="Client Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Solutions -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Expertise</span>
+                <h2>Performance Solutions</h2>
+                <p class="section-description">Tailored strategies designed to maximize your digital performance and deliver exceptional results.</p>
+            </div>
+            
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Paid Media Excellence</h3>
+                    <p>Strategic paid campaigns across all digital channels to drive qualified traffic and conversions.</p>
+                    <div class="solution-hover">
+                        <ul>
+                            <li>Search Engine Marketing</li>
+                            <li>Social Media Advertising</li>
+                            <li>Programmatic Display</li>
+                            <li>Retargeting Strategies</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO & Content</h3>
+                    <p>Organic growth strategies that improve visibility and establish industry authority.</p>
+                    <div class="solution-hover">
+                        <ul>
+                            <li>Technical SEO Audits</li>
+                            <li>Content Strategy</li>
+                            <li>Link Building</li>
+                            <li>Local SEO</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Social Media</h3>
+                    <p>Building meaningful connections with your audience through strategic social engagement.</p>
+                    <div class="solution-hover">
+                        <ul>
+                            <li>Community Management</li>
+                            <li>Influencer Partnerships</li>
+                            <li>Content Creation</li>
+                            <li>Social Advertising</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </div>
+                    <h3>Email & CRM</h3>
+                    <p>Personalized communication strategies that nurture leads and retain customers.</p>
+                    <div class="solution-hover">
+                        <ul>
+                            <li>Automation Workflows</li>
+                            <li>Segmentation Strategies</li>
+                            <li>Personalization Tactics</li>
+                            <li>Performance Analytics</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="solutions-decoration">
+            <div class="deco-circle deco-1"></div>
+            <div class="deco-circle deco-2"></div>
+            <div class="deco-circle deco-3"></div>
+        </div>
+    </section>
+
+    <!-- Digital Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Offer</span>
+                <h2>Digital Marketing Services</h2>
+                <p class="section-description">Comprehensive digital solutions tailored to your business objectives and target audience.</p>
+            </div>
+            
+            <div class="services-tabs">
+                <div class="tab-header">
+                    <div class="tab-nav">
+                        <button class="tab-link active" data-tab="strategy">Strategy</button>
+                        <button class="tab-link" data-tab="creative">Creative</button>
+                        <button class="tab-link" data-tab="technology">Technology</button>
+                        <button class="tab-link" data-tab="analytics">Analytics</button>
+                        <div class="tab-highlight"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content">
+                    <div id="strategy" class="tab-pane active">
+                        <div class="service-feature">
+                            <div class="feature-content">
+                                <h3>Strategic Planning</h3>
+                                <p>Our data-driven approach ensures every marketing decision is backed by insights and aligned with your business goals. We develop comprehensive digital strategies that deliver measurable results.</p>
+                                <ul class="feature-list">
+                                    <li>Market Research & Analysis</li>
+                                    <li>Competitive Benchmarking</li>
+                                    <li>Customer Journey Mapping</li>
+                                    <li>Omnichannel Strategy</li>
+                                    <li>Budget Allocation Planning</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Explore Strategy Services</a>
+                            </div>
+                            <div class="feature-image">
+                                <div class="image-container">
+                                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Strategy Planning">
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="creative" class="tab-pane">
+                        <div class="service-feature">
+                            <div class="feature-content">
+                                <h3>Creative Excellence</h3>
+                                <p>Captivating design and compelling content that resonates with your audience and elevates your brand. Our creative team delivers premium assets that drive engagement and conversion.</p>
+                                <ul class="feature-list">
+                                    <li>Brand Identity Development</li>
+                                    <li>Content Strategy & Creation</li>
+                                    <li>Video Production</li>
+                                    <li>UX/UI Design</li>
+                                    <li>Motion Graphics</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Explore Creative Services</a>
+                            </div>
+                            <div class="feature-image">
+                                <div class="image-container">
+                                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Creative Services">
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="technology" class="tab-pane">
+                        <div class="service-feature">
+                            <div class="feature-content">
+                                <h3>Technology Solutions</h3>
+                                <p>Leveraging cutting-edge marketing technology to automate, optimize, and scale your digital presence. We implement the right tools to streamline your operations and enhance performance.</p>
+                                <ul class="feature-list">
+                                    <li>Marketing Automation</li>
+                                    <li>CRM Implementation</li>
+                                    <li>Website Development</li>
+                                    <li>E-commerce Solutions</li>
+                                    <li>Data Integration</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Explore Technology Services</a>
+                            </div>
+                            <div class="feature-image">
+                                <div class="image-container">
+                                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Technology Solutions">
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="analytics" class="tab-pane">
+                        <div class="service-feature">
+                            <div class="feature-content">
+                                <h3>Analytics & Optimization</h3>
+                                <p>Data-driven insights that inform strategic decisions and continuous improvement. We measure what matters and optimize campaigns in real-time for maximum performance.</p>
+                                <ul class="feature-list">
+                                    <li>Performance Tracking</li>
+                                    <li>Conversion Rate Optimization</li>
+                                    <li>A/B Testing</li>
+                                    <li>Predictive Analytics</li>
+                                    <li>ROI Measurement</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Explore Analytics Services</a>
+                            </div>
+                            <div class="feature-image">
+                                <div class="image-container">
+                                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Analytics Dashboard">
+                                    <div class="image-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="industries">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Focus</span>
+                <h2>Industry Specializations</h2>
+                <p class="section-description">We understand the unique challenges and opportunities within your industry.</p>
+            </div>
+            
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Luxury Retail</h3>
+                    <p>Elevating premium brands with exclusive digital experiences that match their prestige.</p>
+                    <div class="industry-hover">
+                        <a href="#" class="btn btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Hospitality</h3>
+                    <p>Driving bookings and enhancing guest experiences through digital innovation.</p>
+                    <div class="industry-hover">
+                        <a href="#" class="btn btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Travel</h3>
+                    <p>Inspiring wanderlust and converting dreamers into travelers with compelling campaigns.</p>
+                    <div class="industry-hover">
+                        <a href="#" class="btn btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Real Estate</h3>
+                    <p>Showcasing properties and connecting buyers with their perfect investments.</p>
+                    <div class="industry-hover">
+                        <a href="#" class="btn btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Healthcare</h3>
+                    <p>Building trust and connecting patients with quality care through digital channels.</p>
+                    <div class="industry-hover">
+                        <a href="#" class="btn btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education</h3>
+                    <p>Engaging prospective students and showcasing institutional excellence.</p>
+                    <div class="industry-hover">
+                        <a href="#" class="btn btn-outline">View Case Studies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-title">Happy Clients</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" data-count="240">0</div>
+                    <div class="stat-title">Projects Completed</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-title">Industry Awards</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-title">Client Retention</div>
+                    <div class="stat-icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats-decoration">
+            <div class="deco-shape deco-1"></div>
+            <div class="deco-shape deco-2"></div>
+            <div class="deco-shape deco-3"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Client Voices</span>
+                <h2>Testimonials</h2>
+                <p class="section-description">Hear what our clients say about working with DigiDarts.</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>DigiDarts transformed our digital presence with their strategic approach. Our online sales increased by 180% within six months of working with them.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>CMO, Luxe Retail Group</p>
+                                    <div class="author-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>The team's attention to detail and creative execution elevated our brand to new heights. Their performance marketing strategies delivered exceptional ROI.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Michael Chen</h4>
+                                    <p>Director, Horizon Resorts</p>
+                                    <div class="author-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Working with DigiDarts has been a game-changer for our business. Their data-driven approach and creative solutions have consistently outperformed our expectations.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Rodriguez">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Emily Rodriguez</h4>
+                                    <p>CEO, Prestige Properties</p>
+                                    <div class="author-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Their team's expertise in luxury brand marketing is unparalleled. They understand the nuances of our industry and deliver campaigns that resonate with our affluent audience.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David Laurent">
+                                </div>
+                                <div class="author-info">
+                                    <h4>David Laurent</h4>
+                                    <p>Marketing Director, Maison de Luxe</p>
+                                    <div class="author-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Work</span>
+                <h2>Case Studies</h2>
+                <p class="section-description">Explore how we've helped clients achieve exceptional results.</p>
+            </div>
+            
+            <div class="case-grid">
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Luxury Fashion Case Study">
+                        <div class="case-overlay">
+                            <div class="case-badge">+320% ROI</div>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Luxury Fashion E-commerce</h3>
+                        <p>Transformed online sales for a premier fashion house through targeted digital strategies.</p>
+                        <a href="#" class="case-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Five-Star Resort Case Study">
+                        <div class="case-overlay">
+                            <div class="case-badge">+210% Bookings</div>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Five-Star Resort Chain</h3>
+                        <p>Elevated digital presence and direct bookings for a luxury hospitality group.</p>
+                        <a href="#" class="case-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Premium Real Estate Case Study">
+                        <div class="case-overlay">
+                            <div class="case-badge">+180% Leads</div>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Premium Real Estate Developer</h3>
+                        <p>Digital transformation for a high-end property developer targeting global investors.</p>
+                        <a href="#" class="case-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="case-studies-cta">
+                <a href="#" class="btn btn-primary">View All Case Studies</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-label">Get In Touch</span>
+                        <h2>Let's Work Together</h2>
+                        <p class="section-description">Ready to elevate your digital marketing? Contact us to discuss how we can help your business grow.</p>
+                    </div>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Our Office</h4>
+                                <p>123 Marketing Avenue<br>Digital District, Dubai, UAE</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Call Us</h4>
+                                <p>+971 4 123 4567<br>Mon-Fri, 9am-6pm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email Us</h4>
+                                <p>info@digidarts.com<br>support@digidarts.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value=""></option>
+                                <option value="strategy">Strategy Consulting</option>
+                                <option value="paid-media">Paid Media</option>
+                                <option value="seo">SEO & Content</option>
+                                <option value="social">Social Media</option>
+                                <option value="email">Email & CRM</option>
+                                <option value="other">Other Services</option>
+                            </select>
+                            <label for="service">Service Interest</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-decoration">
+            <div class="deco-shape deco-1"></div>
+            <div class="deco-shape deco-2"></div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-inner">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest digital marketing insights and trends.</p>
+                </div>
+                <div class="newsletter-form">
+                    <form id="newsletterForm">
+                        <div class="form-group">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">
+                        <svg viewBox="0 0 200 200" class="logo-svg-small">
+                            <path d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z" fill="none" stroke="#FF5A5F" stroke-width="4"/>
+                            <path d="M100,30 L100,170 M30,100 L170,100 M55,55 L145,145 M145,55 L55,145" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <span>Digi<span>Darts</span></span>
+                    </a>
+                    <p>Precision digital marketing solutions for luxury brands and premium businesses.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Performance Marketing</a></li>
+                        <li><a href="#">Digital Strategy</a></li>
+                        <li><a href="#">Creative Services</a></li>
+                        <li><a href="#">Technology Solutions</a></li>
+                        <li><a href="#">Analytics & Insights</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Industries</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Luxury Retail</a></li>
+                        <li><a href="#">Hospitality</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Real Estate</a></li>
+                        <li><a href="#">Education</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2023 DigiDarts. All rights reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA -->
+    <div class="floating-cta">
+        <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/scrollEffects.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
